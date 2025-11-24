@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "position": "CEO, Acme Corp",
+    "photo": "/images/clients/john.jpg",
+    "testimonial": "The team was professional and delivered everything on time. Highly recommend their services!"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "position": "Marketing Head, Bright Solutions",
+    "photo": "/images/clients/jane.jpg",
+    "testimonial": "Working with them was a seamless experience. Their attention to detail is impressive."
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "position": "CTO, Tech Innovations",
+    "photo": "/images/clients/michael.jpg",
+    "testimonial": "They understood our requirements perfectly and provided innovative solutions."
+  },
+  {
+    "id": 4,
+    "name": "Emily Johnson",
+    "position": "Founder, Startup Hub",
+    "photo": "/images/clients/emily.jpg",
+    "testimonial": "Excellent service and support! They went above and beyond to ensure our project’s success."
+  }
+]

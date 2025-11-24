@@ -14,7 +14,7 @@ export default function Services() {
     }, [])
 
     return (
-        <div className='py-12 px-4'>
+        <div className='pt-12 pb-16 px-4'>
             <ContentHeader
                 title='Our Services'
                 titleStyle='text-3xl text-[#17375f] font-semibold text-center pb-4'
@@ -26,7 +26,7 @@ export default function Services() {
 
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto'>
                 {data.map(item => (
-                    <div key={item.id} className='bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 h-[400px] flex flex-col justify-between'>
+                    <div key={item.id} className='bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 h-[400px] flex flex-col justify-between'>
                         <h3 className='text-xl font-semibold text-[#17375f] mb-3'>{item.title}</h3>
                         <p className='text-gray-600 mb-4'>{item.description}</p>
                         <Button
